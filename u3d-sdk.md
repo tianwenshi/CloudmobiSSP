@@ -16,7 +16,7 @@ void Start () {
 }
 ```
 
-* Setup delegate Method. We didn't call CTService.showRewardVideo() directly, We call it in delegate function. For more delegate details, you should check the [**API Reference**](#markdown-pane).
+* Setup delegate Method. We didn't call CTService.showRewardVideo() directly, We call it in delegate function. For more delegate details, you should check the [**API Reference**](#ApiReference).
 
 ```
 void setupDelegates(){
@@ -46,7 +46,7 @@ void loadRewardVideoBtnClick(){
 *  Add a static link to: Build Settings -> Other Linker Flags -> -ObjC
 *  In Info.plist added the NSAppTransportSecurity, the type for Dictionary. In NSAppTransportSecurity added the NSAllowsArbitraryLoads the Boolean,setting YES.
 
-## SDK API reference
+### <a name="ApiReference">SDK API reference</a> 
 ```
 /**
 Get CT AD Config in Appdelegate(didFinishLaunchingWithOptions:)
