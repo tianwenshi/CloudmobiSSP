@@ -119,7 +119,8 @@ CTReward video ad delegate
 		
 ```
 
-##Sample Code
+## Sample Code
+
  **CTCamera.cs** attaches to [Main Camera]
  
 ```
