@@ -1,9 +1,9 @@
-##SDK Install
+## SDK Install
 * support Unity4.x, Unity5.x and Unity2017;
 * support iOS 7.0+;
 * [click here to download SDK;](https://github.com/tianwenshi/CloudmobiSSP/raw/master/U3D-CTServiceSDK.unitypackage.zip)
 
-##SDK setup
+## SDK setup
 
 * Import CTService.unitypackage to your U3D project.
 
@@ -46,7 +46,7 @@ void loadRewardVideoBtnClick(){
 *  Add a static link to: Build Settings -> Other Linker Flags -> -ObjC
 *  In Info.plist added the NSAppTransportSecurity, the type for Dictionary. In NSAppTransportSecurity added the NSAllowsArbitraryLoads the Boolean,setting YES.
 
-##SDK API reference
+## SDK API reference
 ```
 /**
 Get CT AD Config in Appdelegate(didFinishLaunchingWithOptions:)
