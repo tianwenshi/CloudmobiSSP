@@ -52,7 +52,8 @@ void loadRewardVideoBtnClick(){
 Get CT AD Config in Appdelegate(didFinishLaunchingWithOptions:)
 @param slot_id Ad
 */
-	public static void loadRequestGetCTSDKConfigBySlot_id(string slot_id)**
+
+public static void loadRequestGetCTSDKConfigBySlot_id(string slot_id)
 
 
 /**
@@ -66,7 +67,8 @@ First,you must should Call (loadRewardVideoWithSlotId) method get RewardVideo Ad
 /**
 show RewardVideo	you should call it in the rewardVideoLoadSuccess delegate function.
  */
-	public static void showRewardVideo()		
+
+public static void showRewardVideo()		
 
 /**
 CTReward video ad delegate
@@ -85,37 +87,44 @@ CTReward video ad delegate
 /**
 *  begin playing Ad delegate
 **/
-	public static event Action rewardVideoDidStartPlaying;
+
+public static event Action rewardVideoDidStartPlaying;
 	
 /**
 *   playing Ad finished delegate
 **/
-	public static event Action rewardVideoDidFinishPlaying;
+
+public static event Action rewardVideoDidFinishPlaying;
 	
 /**
 *   user clicking Ads delegate
 **/
-	public static event Action rewardVideoDidClickRewardAd;
+
+public static event Action rewardVideoDidClickRewardAd;
 	
 /**
 *  will leave Application delegate
 **/
-	public static event Action rewardVideoWillLeaveApplication;
+
+public static event Action rewardVideoWillLeaveApplication;
 	
 /**
 *  jumping AppStroe failure delegate
 **/
-	public static event Action rewardVideoJumpfailed;
+
+public static event Action rewardVideoJumpfailed;
 	
 /**
 *  reward video ad information delegate
 **/
-	public static event Action<string> rewardVideoAdRewardedName;
+
+public static event Action<string> rewardVideoAdRewardedName;
 	
 /**
 *  reward video ad closed delegate
 **/
-	public static event Action rewardVideoClosed;
+
+public static event Action rewardVideoClosed;
 		
 ```
 
