@@ -52,23 +52,23 @@ void loadRewardVideoBtnClick(){
 Get CT AD Config in Appdelegate(didFinishLaunchingWithOptions:)
 @param slot_id Ad
 */
-
 public static void loadRequestGetCTSDKConfigBySlot_id(string slot_id)
 
 
 /**
-Get RewardVideo Ad
-First,you must should Call (loadRewardVideoWithSlotId) method get RewardVideo Ad！Then On his return to the success of the proxy method invokes the （showRewardVideo） method
+*  Get RewardVideo Ad
+*  First,you must should Call (loadRewardVideoWithSlotId) method get RewardVideo Ad！Then On his return to the success of the *proxy method invokes the （showRewardVideo） method
 @param slot_id         Cloud Tech AD ID
 */
-	public static void loadRewardVideoWithSlotId(string slot_id)
+public static void loadRewardVideoWithSlotId(string slot_id)
 
 
 /**
-show RewardVideo	you should call it in the rewardVideoLoadSuccess delegate function.
+*  show RewardVideo
+*  you should call it in the rewardVideoLoadSuccess delegate function.
  */
-
 public static void showRewardVideo()		
+
 
 /**
 CTReward video ad delegate
@@ -77,53 +77,54 @@ CTReward video ad delegate
 /**
 *  video loaded successfully delegate, you can call showRewardVideo() in this function.
 **/
-	public static event Action rewardVideoLoadSuccess;
-	
+public static event Action rewardVideoLoadSuccess;
+
+
 /**
 *  video loaded failed delegate, you cannot showRewardVideo();
 **/
-	public static event Action<string> rewardVideoLoadingFailed;
-	
+public static event Action<string> rewardVideoLoadingFailed;
+
+
 /**
 *  begin playing Ad delegate
 **/
-
 public static event Action rewardVideoDidStartPlaying;
-	
+
+
 /**
 *   playing Ad finished delegate
 **/
-
 public static event Action rewardVideoDidFinishPlaying;
-	
+
+
 /**
 *   user clicking Ads delegate
 **/
-
 public static event Action rewardVideoDidClickRewardAd;
-	
+
+
 /**
 *  will leave Application delegate
 **/
-
 public static event Action rewardVideoWillLeaveApplication;
-	
+
+
 /**
 *  jumping AppStroe failure delegate
 **/
-
 public static event Action rewardVideoJumpfailed;
-	
+
+
 /**
 *  reward video ad information delegate
 **/
-
 public static event Action<string> rewardVideoAdRewardedName;
-	
+
+
 /**
 *  reward video ad closed delegate
 **/
-
 public static event Action rewardVideoClosed;
 		
 ```
