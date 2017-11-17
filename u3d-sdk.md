@@ -130,7 +130,7 @@ using UnityEngine;
 using CTServiceSDK;
 
 public class CTCamera : MonoBehaviour {
-	public string slot_id = "xxxxxx";
+	public string slot_id = "260";
 	void Start () {
 		CTService.loadRequestGetCTSDKConfigBySlot_id (slot_id);
 	}
@@ -143,7 +143,7 @@ public class CTCamera : MonoBehaviour {
 using CTServiceSDK;
 
 public class CTCanvas : MonoBehaviour {
-	public string slot_id = "xxxxxx";
+	public string slot_id = "260";
 	public Button loadRewardVideoBtn;
 	void Start () {
 		loadRewardVideoBtn.onClick.AddListener (loadRewardVideoBtnClick);
